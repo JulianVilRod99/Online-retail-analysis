@@ -1,0 +1,58 @@
+# Entornos virtuales
+venv/
+.env/
+.envrc
+
+# Archivos de configuración
+*.env
+*.ini
+*.cfg
+*.toml
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Archivos Jupyter temporales
+.ipynb_checkpoints/
+
+# Archivos generados automáticamente
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos CSV grandes
+data/*.csv
+!data/sample.csv  # <-- permite subir un ejemplo pequeño si lo necesitas
+
+# Archivos de bases de datos
+*.db
+*.sqlite
+*.h5
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Resultados / salidas
+output/
+reports/
+figures/
+plots/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpeta de VSCode
+.vscode/
+
+# Notebooks exportados
+*.html
+*.pdf
