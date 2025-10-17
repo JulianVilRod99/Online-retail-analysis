@@ -5,18 +5,18 @@ This project performs data preparation and analysis using the Online Retail II d
 
 2. Project Structure
 
-Online-retail-analysis/
-│
-├── data/
-│   └── raw/                <- Contains the original downloaded dataset
-│   └── cleaned/            <- Contains the final dataset
-├── notebooks/
-│   ├── data_overview.ipynb   <- First exploration and basic data analysis
-│   └── data_cleaning.ipynb   <- Cleaning and transformation steps
-│
-├── scripts/
-│   └── download_data.py         <- Script to download and extract dataset
-│
+Online-retail-analysis/  
+│  
+├── data/  
+│   └── raw/                <- Contains the original downloaded dataset  
+│   └── cleaned/            <- Contains the final dataset  
+├── notebooks/  
+│   ├── data_overview.ipynb   <- First exploration and basic data analysis  
+│   └── data_cleaning.ipynb   <- Cleaning and transformation steps  
+│  
+├── scripts/  
+│   └── download_data.py         <- Script to download and extract dataset  
+│  
 └── README.md
 
 3. Dataset Information
